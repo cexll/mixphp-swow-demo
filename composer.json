@@ -24,8 +24,8 @@
   "require": {
     "workerman/workerman": "^4.0",
     "mix/init": "~3.0.0",
-    "mix/vega": "dev-master",
-    "mix/http-message": "dev-master",
+    "mix/vega": "~3.0.0",
+    "mix/http-message": "~3.0.0",
     "mix/cli": "~3.0.0",
     "mix/database": "~3.0.0",
     "mix/redis": "~3.0.0",
@@ -42,16 +42,6 @@
   "extra": {
     "branch-alias": {
       "dev-master": "master"
-    }
-  },
-  "repositories": {
-    "mix/vega": {
-      "type": "path",
-      "url": "./plugin/vega"
-    },
-    "mix/http-message": {
-      "type": "path",
-      "url": "./plugin/http-message"
     }
   }
 }

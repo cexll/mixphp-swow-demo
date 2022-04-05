@@ -1,0 +1,802 @@
+2022-04-02 16:37:51 pid:9302 Workerman[bin/mix.php] start in DEBUG mode
+2022-04-02 16:40:11 pid:9302 Workerman[mix.php] stopping ...
+2022-04-02 16:40:11 pid:9302 Workerman[mix.php] has been stopped
+2022-04-02 23:22:12 pid:154 Workerman[bin/mix.php] start in DEBUG mode
+2022-04-02 23:22:28 pid:154 Workerman[mix.php] stopping ...
+2022-04-02 23:22:28 pid:154 Workerman[mix.php] has been stopped
+2022-04-02 23:22:29 pid:156 Workerman[bin/mix.php] start in DEBUG mode
+2022-04-02 23:22:30 pid:156 Workerman[mix.php] stopping ...
+2022-04-02 23:22:30 pid:156 Workerman[mix.php] has been stopped
+2022-04-02 23:54:34 pid:688 Workerman[bin/mix.php] start in DEBUG mode
+2022-04-02 23:54:58 pid:688 Workerman[mix.php] stopping ...
+2022-04-02 23:54:58 pid:688 Workerman[mix.php] has been stopped
+2022-04-03 00:05:42 pid:735 Workerman[bin/mix.php] start in DEBUG mode
+2022-04-03 00:05:44 pid:736 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:736] exit with status 64000
+2022-04-03 00:05:44 pid:737 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:737] exit with status 64000
+2022-04-03 00:05:44 pid:738 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:739 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:738] exit with status 64000
+2022-04-03 00:05:44 pid:740 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:739] exit with status 64000
+2022-04-03 00:05:44 pid:741 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:740] exit with status 64000
+2022-04-03 00:05:44 pid:742 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:743 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:741] exit with status 64000
+2022-04-03 00:05:44 pid:744 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:742] exit with status 64000
+2022-04-03 00:05:44 pid:745 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:743] exit with status 64000
+2022-04-03 00:05:44 pid:746 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:747 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:744] exit with status 64000
+2022-04-03 00:05:44 pid:748 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:745] exit with status 64000
+2022-04-03 00:05:44 pid:749 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:746] exit with status 64000
+2022-04-03 00:05:44 pid:750 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:751 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(549): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#8 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#9 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#10 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#11 {main}
+2022-04-03 00:05:44 pid:735 worker[none:747] exit with status 64000
+2022-04-03 00:05:44 pid:735 worker[none:748] exit with status 64000
+2022-04-03 00:05:44 pid:735 worker[none:749] exit with status 64000
+2022-04-03 00:05:44 pid:735 worker[none:750] exit with status 64000
+2022-04-03 00:05:44 pid:735 worker[none:751] exit with status 64000
+2022-04-03 00:05:45 pid:752 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:752] exit with status 64000
+2022-04-03 00:05:45 pid:753 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:753] exit with status 64000
+2022-04-03 00:05:45 pid:754 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:754] exit with status 64000
+2022-04-03 00:05:45 pid:755 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:755] exit with status 64000
+2022-04-03 00:05:45 pid:756 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:756] exit with status 64000
+2022-04-03 00:05:45 pid:757 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:757] exit with status 64000
+2022-04-03 00:05:45 pid:758 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:758] exit with status 64000
+2022-04-03 00:05:45 pid:759 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:759] exit with status 64000
+2022-04-03 00:05:45 pid:760 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:760] exit with status 64000
+2022-04-03 00:05:45 pid:761 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:761] exit with status 64000
+2022-04-03 00:05:45 pid:762 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:762] exit with status 64000
+2022-04-03 00:05:45 pid:763 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:763] exit with status 64000
+2022-04-03 00:05:45 pid:764 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:764] exit with status 64000
+2022-04-03 00:05:45 pid:765 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:765] exit with status 64000
+2022-04-03 00:05:45 pid:766 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:766] exit with status 64000
+2022-04-03 00:05:45 pid:767 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:767] exit with status 64000
+2022-04-03 00:05:45 pid:774 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:775 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:773 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:772 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 Workerman[mix.php] stopping ...
+2022-04-03 00:05:45 pid:769 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:768 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:770 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:771 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:777 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:778 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:782 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:779 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:781 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:780 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:783 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:774] exit with status 64000
+2022-04-03 00:05:45 pid:776 RuntimeException: Could not scan for classes inside "/mnt/c/code/home/docker/mixphp/Framework/src/Server../Container" which does not appear to be a file nor a folder in /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Composer/ClassMapGenerator.php:53
+Stack trace:
+#0 /mnt/c/code/home/docker/mixphp/vendor/mix/init/src/Finder.php(36): Mix\Init\Composer\ClassMapGenerator::createMap()
+#1 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(15): Mix\Init\Finder->exec()
+#2 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(2418): Mix\Framework\Server\WorkerManServer->Mix\Framework\Server\{closure}()
+#3 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1555): Workerman\Worker->run()
+#4 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1397): Workerman\Worker::forkOneWorkerForLinux()
+#5 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1371): Workerman\Worker::forkWorkersForLinux()
+#6 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1692): Workerman\Worker::forkWorkers()
+#7 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(1641): Workerman\Worker::monitorWorkersForLinux()
+#8 /mnt/c/code/home/docker/mixphp/vendor/workerman/workerman/Worker.php(551): Workerman\Worker::monitorWorkers()
+#9 /mnt/c/code/home/docker/mixphp/Framework/src/Server/WorkerManServer.php(34): Workerman\Worker::runAll()
+#10 /mnt/c/code/home/docker/mixphp/Framework/src/Application.php(34): Mix\Framework\Server\WorkerManServer->run()
+#11 /mnt/c/code/home/docker/mixphp/bin/mix.php(21): Mix\Framework\Application->run()
+#12 /mnt/c/code/home/docker/mixphp/bin/mix.php(22): {closure}()
+#13 {main}
+2022-04-03 00:05:45 pid:735 worker[none:768] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:769] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:770] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:771] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:772] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:773] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:775] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:777] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:778] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:779] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:782] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:781] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:780] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:783] exit with status 64000
+2022-04-03 00:05:45 pid:735 worker[none:776] exit with status 64000
+2022-04-03 00:05:45 pid:735 Workerman[mix.php] has been stopped
+2022-04-03 00:06:03 pid:784 Workerman[bin/mix.php] start in DEBUG mode
+2022-04-03 00:06:33 pid:784 Workerman[mix.php] stopping ...
+2022-04-03 00:06:33 pid:784 Workerman[mix.php] has been stopped
