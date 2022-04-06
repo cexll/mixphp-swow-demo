@@ -2,7 +2,6 @@
 
 namespace App\Service;
 
-use App\Container\Logger;
 use Swow\Channel;
 use Swow\Http\WebSocketFrame;
 
@@ -27,13 +26,15 @@ class Session
     public function start(): void
     {
         \Swow\Coroutine::run(function () {
-            $frame = new WebSocketFrame();
-            $data = $this->chan->pop();
-            if (!$data) {
-                return;
+            while (true) {
+                $frame = new WebSocketFrame();
+                $data = $this->chan->pop();
+                if (!$data) {
+                    return;
+                }
+                $frame->setPayloadData((string)$data . $this->count());
+                $this->connection->sendWebSocketFrame($frame);
             }
-            $frame->setPayloadData((string)$data);
-            $this->connection->sendWebSocketFrame($frame);
         });
     }
 

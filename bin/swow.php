@@ -29,7 +29,7 @@ use function Swow\Sync\waitAll;
 Dotenv::createUnsafeImmutable(__DIR__ . '/../', '.env')->load();
 define("APP_DEBUG", env('APP_DEBUG'));
 Error::register();
-
+//\Swow\Debug\showExecutedSourceLines(true);
 class SwowServer extends HttpServer
 {
     /**
@@ -82,6 +82,8 @@ class SwowServer extends HttpServer
                                     $request = $connection->recvHttpRequest();
                                     if (($upgrade = $request->getUpgrade()) && $upgrade === $request::UPGRADE_WEBSOCKET) {
                                         $connection->upgradeToWebSocket($request);
+                                        $session = new Session($connection);
+                                        $session->start();
                                         while (true) {
                                             $frame = $connection->recvWebSocketFrame();
                                             $opcode = $frame->getOpcode();
@@ -95,12 +97,10 @@ class SwowServer extends HttpServer
                                                     break 2;
                                                 default:
                                                     $message = $frame->getPayloadData()->toString();
-                                                    var_dump($message);
-                                                    (new Session($connection))->send($message);
-                                                    $handler = $this->handler;
-                                                    $handler($request, $connection);
+                                                    $session->send($message);
                                             }
                                         }
+                                        break;
                                     }
                                     $handler = $this->handler;
                                     $handler($request, $connection);

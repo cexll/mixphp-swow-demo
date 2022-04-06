@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Mix\Framework\Container\Logger;
+use App\Container\Logger;
 
 /**
  * Class Error

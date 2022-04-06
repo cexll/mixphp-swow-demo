@@ -13,14 +13,10 @@ class Hello
      */
     public function index(Context $ctx)
     {
-        $session = (new Session($ctx->response->getRawResponse()));
         $ctx->JSON(200, [
             'code' => 0,
             'message' => 'success',
-            'data' => [
-                'length' => $session->count(),
-                'pop' => $session->pop(),
-            ]
+            'data' => 'hello world',
         ]);
     }
 }
