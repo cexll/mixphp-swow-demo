@@ -28,7 +28,11 @@ class Session
     {
         \Swow\Coroutine::run(function () {
             $frame = new WebSocketFrame();
-            $frame->setPayloadData('hello 123');
+            $data = $this->chan->pop();
+            if (!$data) {
+                return;
+            }
+            $frame->setPayloadData((string)$data);
             $this->connection->sendWebSocketFrame($frame);
         });
     }
