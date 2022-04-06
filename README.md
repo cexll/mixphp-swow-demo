@@ -15,3 +15,8 @@ Swow      Version:    0.1.0
 Listen    Addr:       http://0.0.0.0:9501
 2022-04-05 14:57:04.558311  INFO  Start swow coroutine server
 ```
+
+```phpregexp
+默认api接口 http://localhost:9501/hello
+默认WebSocket接口 ws://localhost:9501/websocket
+```
