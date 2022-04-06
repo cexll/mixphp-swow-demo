@@ -41,7 +41,6 @@ return array(
     'Mix\\ObjectPool\\' => array($vendorDir . '/mix/object-pool/src'),
     'Mix\\Init\\' => array($vendorDir . '/mix/init/src'),
     'Mix\\Http\\Message\\' => array($vendorDir . '/mix/http-message/src'),
-    'Mix\\Framework\\' => array($baseDir . '/Framework/src'),
     'Mix\\Database\\' => array($vendorDir . '/mix/database/src'),
     'Mix\\Cli\\' => array($vendorDir . '/mix/cli/src'),
     'Lukasoppermann\\Httpstatus\\' => array($vendorDir . '/lukasoppermann/http-status/src'),

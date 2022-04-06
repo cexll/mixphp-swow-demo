@@ -2,7 +2,7 @@
 
 namespace App;
 
-use Mix\Framework\Container\Logger;
+use App\Container\Logger;
 use Mix\Vega\Abort;
 use Mix\Vega\Context;
 use Mix\Vega\Engine;

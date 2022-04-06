@@ -3,7 +3,6 @@
 namespace App\Service;
 
 use App\Container\Logger;
-use App\Container\Swow\Coroutine;
 use Swow\Channel;
 use Swow\Http\WebSocketFrame;
 
@@ -27,27 +26,10 @@ class Session
 
     public function start(): void
     {
-        Coroutine::create(function () {
-            var_dump(1);
-            while (true) {
-                var_dump(321);
-                $data = $this->chan->pop();
-                var_dump(123);
-                var_dump($data);
-                if (!$data) {
-                    return;
-                }
-                var_dump($data);
-                try {
-                    $frame = new WebSocketFrame();
-                    $frame->setPayloadData('hello 123');
-                    $this->connection->sendWebSocketFrame($frame);
-                } catch (\Throwable $e) {
-                    Logger::instance()->error((string)$e);
-                    $this->stop();
-                    return;
-                }
-            }
+        \Swow\Coroutine::run(function () {
+            $frame = new WebSocketFrame();
+            $frame->setPayloadData('hello 123');
+            $this->connection->sendWebSocketFrame($frame);
         });
     }
 
@@ -59,5 +41,15 @@ class Session
     public function stop()
     {
         $this->chan->close();
+    }
+
+    public function count()
+    {
+        return $this->chan->getLength();
+    }
+
+    public function pop()
+    {
+        return $this->chan->pop();
     }
 }

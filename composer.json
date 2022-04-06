@@ -5,20 +5,14 @@
   "homepage": "https://openmix.org/mix-php",
   "license": "Apache-2.0",
   "scripts": {
-    "cliserver:start": "php -S localhost:8000 public/index.php",
-    "swoole:start": "php bin/swoole.php",
-    "swooleco:start": "php bin/swooleco.php",
-    "workerman:start": "php bin/workerman.php start",
-    "cli:clearcache": "php bin/cli.php clearcache"
+    "swow:start": "php bin/swow.php"
   },
   "autoload": {
     "psr-4": {
-      "App\\": "src/",
-      "Mix\\Framework\\": "Framework/src/"
+      "App\\": "src/"
     },
     "files": [
-      "src/functions.php",
-      "Framework/src/functions.php"
+      "src/functions.php"
     ]
   },
   "require": {
@@ -38,10 +32,5 @@
   },
   "require-dev": {
     "swoole/ide-helper": "^4.6"
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "master"
-    }
   }
 }

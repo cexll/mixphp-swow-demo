@@ -21,5 +21,4 @@ return array(
     'ddf3d9571d612f3950a74afb326f055c' => $vendorDir . '/swow/swow/lib/swow-library/src/Debug/functions.php',
     '6029f037c7ad86da12f86be3da1bdbb3' => $vendorDir . '/swow/swow/lib/swow-util/src/functions.php',
     '00316884ede8e3ea83557ed7b0354474' => $baseDir . '/src/functions.php',
-    '3e32418e6b9e0ee8b3b5613999bc2c0f' => $baseDir . '/Framework/src/functions.php',
 );
