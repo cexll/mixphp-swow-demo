@@ -5,11 +5,9 @@ namespace App\Container\Swow\WebSocket;
 use App\Container\Swow\Exception\UpgradeException;
 use Mix\Http\Message\Response;
 use Mix\Http\Message\ServerRequest;
-use Swow\Server\ConnectionManagerTrait;
 
 class Upgrade
 {
-    use ConnectionManagerTrait;
 
     public function upgrade(ServerRequest $request, Response $response): \Swow\Http\Server\Connection
     {
